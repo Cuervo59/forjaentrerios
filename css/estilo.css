@@ -8,6 +8,8 @@
     font-family: 'Bebas Neue',  cursive ;
 }
 
+ 
+
 header {
     position: fixed;
     top: 0;
@@ -18,6 +20,7 @@ header {
     box-shadow: 0 4px 25px -22px black;
     z-index: 2;
 }
+
 /*CONTENIDO*/
 
 .header-content {
@@ -38,49 +41,12 @@ header {
 .logo h1 b {
     color: rgb(56, 98, 216);
 } 
-/*---------------MENU---------------*/
-.menu {
-    height: 100px;
-}
-
-.menu nav {
-    height: 100%;
-}
-
-/*/
-.menu nav ul {
-    height: 100%;
-    display: flex;
-    list-style: none;  
-}
-/*/
-.menu-selected {
-   
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    list-style: none;
-}
-
-/*/
-.menu nav ul li { 
-    height: 100%;
-    margin: 0px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-
-}
- 
-.menu nav ul li a {
-    color:dimgray
-}
 
 
+/*-------------PORTADA-----------*/
 
-/*-------------**PORTADA**-----------*/
 .container-cover {
-    background-image: url(../img/imagen-11.jpg);
+    background-image: url(../img/imagen-8.jpg);
     background-position: center;
     width: 100%;
     height: 500px;
@@ -90,6 +56,8 @@ header {
     background-size: cover;
 
 }
+
+*/ 
 .container-cover:before {
     content:"" ;
     width: 100%;
@@ -215,6 +183,7 @@ article img {
 
 
 /* GALERIA */
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -238,44 +207,14 @@ article img {
     height: 300px;
 }
 
-/*FOTTER*/
-
-.container-footer {
-    width: 100%;
-    padding: 40px 0;
-    background: #f7f7f7;
-    margin-top: 40px;
+.form {
+    line-height: 30px;
+    background-color: rgb(111, 115, 239);
+    margin: 90px -20px;
+    padding-left: 800px;
+    font-size: 20;
 }
 
-.container-footer footer {
-    width: 1200px;
-    margin: auto;
-}
-
-.container-footer footer .logo-footer {
-    text-align: center;
-}
-
-.container-footer footer .logo-footer img {
-    width: 100px;
-    border-radius: 6px;
-}
-
-.container-footer footer hr {
-    margin-top: 20px;
-    border: none;
-    height: 2px;
-    background-color: darkgrey;
-}
- 
-.container-footer  h4 {
-    text-align: center;
-    margin-top: 20px;
-    color: #8e8e8e;
-    font-weight: 500px;
-    
-
-}
 
 
 /*Responsive Dessign*/

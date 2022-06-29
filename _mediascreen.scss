@@ -1,0 +1,49 @@
+@import "mediascreen";
+
+@media screen and (max-width: 1220px) {
+
+    .header-content,
+    .container-contect,
+    .container-footer footer {
+        max-width: 1000;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px) {
+    .container-contect {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    article {
+        box-shadow: 0 0 0 0;
+    }
+}
+
+.container-aside {
+    display: flex;
+    justify-content: center;
+
+    aside {
+        max-width: 300px;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .menu {
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        color: #fff;
+        overflow: hidden;
+        box-shadow: 10px 0 20px -25px black;
+    }
+
+}
